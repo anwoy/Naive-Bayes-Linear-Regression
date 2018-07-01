@@ -24,3 +24,16 @@ nblr --displayMO <MOdatfile>
 <number of columns>
 data
 ```
+## options:
+### --convert_to_binary
+Converts text file to binary file
+### --convert_to_text
+Converts binary file to text file
+### --learnML
+ML estimation of parameters. Can use a given parameter file as starting point for EM iterations
+### --learnMAP
+MAP estimation of parameters. Can use a given parameter file as starting point for EM iterations
+### --predict
+makes predictions given a predictors file, outputs the predicted classes in the 'Onewtxtfilename' file
+### --displayMO
+displays parameters
